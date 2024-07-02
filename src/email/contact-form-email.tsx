@@ -25,7 +25,7 @@ export default function ContactFormEmail({
   return (
     <Html>
       <Head />
-      <Preview>You've got a new message from your portfolio site!</Preview>
+      <Preview>{`You've got a new message from your portfolio site!`}</Preview>
       <Tailwind>
         <Body className="bg-gray-50 text-gray-900">
           <Container className="max-w-2xl mx-auto p-8">
@@ -35,7 +35,7 @@ export default function ContactFormEmail({
                   New Message Alert
                 </Heading>
                 <Text className="text-indigo-200">
-                  You've received a new message from your portfolio's contact form.
+                  {`You've received a new message from your portfolio's contact form.`}
                 </Text>
               </div>
               <div className="p-6">
@@ -44,7 +44,7 @@ export default function ContactFormEmail({
                 </Text>
                 <Hr className="my-6 border-gray-200" />
                 <Text className="text-lg text-gray-700">
-                  <span className="font-semibold">Sender's Email:</span> {senderEmail}
+                  <span className="font-semibold">{`Sender's Email:`}</span> {senderEmail}
                 </Text>
                 <Hr className="my-6 border-gray-200" />
                 <Text className="text-sm text-gray-500">

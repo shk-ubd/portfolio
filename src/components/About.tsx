@@ -21,7 +21,7 @@ function About() {
 </p>
 
 <p>
-    <span className="italic">When I'm not coding</span>, I enjoy playing video games, watching movies, and exploring new interests. I am passionate about <span className="font-medium">learning new things</span> and am currently delving into <span className="font-medium">history and philosophy</span>. 
+    <span className="italic">When I&apos;m not coding</span>, I enjoy playing video games, watching movies, and exploring new interests. I am passionate about <span className="font-medium">learning new things</span> and am currently delving into <span className="font-medium">history and philosophy</span>. 
 </p>
     </motion.section>
   )
