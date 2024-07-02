@@ -4,6 +4,6 @@ export default function SectionHeading({
     text
 }:{text: string}) {
   return (
-    <h2 className='text-3xl font-medium capitalize mb-8'>{text}</h2>
+    <h2 className='text-3xl text-center font-medium capitalize mb-8'>{text}</h2>
   )
 }

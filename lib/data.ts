@@ -1,10 +1,10 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaGithub, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/../public/corpcomment.png";
-import rmtdevImg from "@/../public/rmtdev.png";
-import wordanalyticsImg from "@/../public/wordanalytics.png";
+import blogAppImg from "../public/blog-app.png";
+import gadgetHubImg from "../public/gadgethub.jpeg";
+import businessAcademyImg from "../public/business-academy.jpeg";
+import spaceTourismImg from "../public/space-tourism.jpeg";
 
 export const links = [
   {
@@ -35,54 +35,63 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Engineering Student",
+    location: "University of Karachi, Karachi",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    "Pursuing a degree in Software Engineering, covering subjects such as Calculus, Computer Logic Design, Object-Oriented Concepts, Data Structures, Software Development, and Artificial Intelligence. Gaining a strong foundation in both theoretical and practical aspects of software engineering.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020 - present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Personal Projects",
+    location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Developed several web development projects to enhance my skills in React, Next.js, and other modern web technologies. Projects include BlogApp, GadgetHub, Business Academy, and Space Tourism.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
+  // {
+  //   title: "Open Source Contributor",
+  //   location: "Remote",
+  //   description:
+  //     "Contributed to various open-source projects, enhancing my collaborative skills and understanding of real-world software development practices.",
+  //   icon: React.createElement(FaGithub),
+  //   date: "2023 - present",
+  // },
 ] as const;
+
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "BlogApp",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A blogging app where users can signup, login, and post blog articles. Made with React, Tailwind CSS, and Appwrite.",
+    tags: ["React", "Tailwind CSS", "Appwrite"],
+    imageUrl: blogAppImg,
   },
   {
-    title: "rmtDev",
+    title: "GadgetHub",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "An ecommerce store using React, Sanity as a CMS, Tailwind CSS for styling, and Stripe for payments.",
+    tags: ["React", "Sanity", "Tailwind CSS", "Stripe"],
+    imageUrl: gadgetHubImg,
   },
   {
-    title: "Word Analytics",
+    title: "Business Academy",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "An app for a business academy providing course info. Built with NextJS and styled with TailwindCSS and Aceternity UI.",
+    tags: ["NextJS", "Tailwind CSS", "Aceternity UI"],
+    imageUrl: businessAcademyImg,
+  },
+  {
+    title: "Space Tourism",
+    description:
+      "A frontend website for a space tourism company. Developed with React, Tailwind CSS, and Vite.",
+    tags: ["React", "Tailwind CSS", "Vite"],
+    imageUrl: spaceTourismImg,
   },
 ] as const;
+
 
 export const skillsData = [
   "HTML",
@@ -91,17 +100,11 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
+  "Appwrite",
+  "Firebase",
   "Framer Motion",
 ] as const;
