@@ -65,8 +65,8 @@ export const projectsData = [
   {
     title: "BlogApp",
     description:
-      "A blogging app where users can signup, login, and post blog articles. Made with React, Tailwind CSS, and Appwrite.",
-    tags: ["React", "Tailwind CSS", "Appwrite"],
+      "A Fullstack blogging app where users can signup, login, and post blog articles. Made with React, Tailwind CSS, and Appwrite.",
+    tags: ["React", "Tailwind CSS", "Appwrite", "React Hook Form", "TinyMCE"],
     imageUrl: blogAppImg,
   },
   {
