@@ -4,7 +4,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import blogAppImg from "../public/blog-app.png";
 import gadgetHubImg from "../public/gadgethub.jpeg";
 import businessAcademyImg from "../public/business-academy.jpeg";
-import spaceTourismImg from "../public/space-tourism.jpeg";
+import spaceTourismImg from "../public/space-tourism.png";
 
 export const links = [
   {
