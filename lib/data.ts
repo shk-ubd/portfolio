@@ -40,7 +40,7 @@ export const experiencesData = [
     description:
     "Pursuing a degree in Software Engineering, covering subjects such as Calculus, Computer Logic Design, Object-Oriented Concepts, Data Structures, Software Development, and Artificial Intelligence. Gaining a strong foundation in both theoretical and practical aspects of software engineering.",
     icon: React.createElement(LuGraduationCap),
-    date: "2020 - present",
+    date: "2022 - present",
   },
   {
     title: "Personal Projects",
@@ -68,6 +68,7 @@ export const projectsData = [
       "A Fullstack blogging app where users can signup, login, and post blog articles. Made with React, Tailwind CSS, and Appwrite.",
     tags: ["React", "Tailwind CSS", "Appwrite", "React Hook Form", "TinyMCE"],
     imageUrl: blogAppImg,
+    link: "https://shk-ubd-blogapp.netlify.app/"
   },
   {
     title: "GadgetHub",
@@ -75,6 +76,7 @@ export const projectsData = [
       "An ecommerce store using React, Sanity as a CMS, Tailwind CSS for styling, and Stripe for payments.",
     tags: ["React", "Sanity", "Tailwind CSS", "Stripe"],
     imageUrl: gadgetHubImg,
+    link: "https://github.com/shk-ubd/gadgethub"
   },
   {
     title: "Business Academy",
@@ -82,6 +84,7 @@ export const projectsData = [
       "An app for a business academy providing course info. Built with NextJS and styled with TailwindCSS and Aceternity UI.",
     tags: ["NextJS", "Tailwind CSS", "Aceternity UI"],
     imageUrl: businessAcademyImg,
+    link: "https://shk-ubd-business-academy.vercel.app/"
   },
   {
     title: "Space Tourism",
@@ -89,6 +92,7 @@ export const projectsData = [
       "A frontend website for a space tourism company. Developed with React, Tailwind CSS, and Vite.",
     tags: ["React", "Tailwind CSS", "Vite"],
     imageUrl: spaceTourismImg,
+    link: "https://shk-ubd-space-tourism.netlify.app/"
   },
 ] as const;
 

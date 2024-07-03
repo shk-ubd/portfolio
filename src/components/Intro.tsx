@@ -92,7 +92,7 @@ function Intro() {
 
         <a 
         className='group bg-neutral-100 px-7 py-3 flex items-center gap-2 rounded-full border border-black/15 outline-none focus:scale-110 hover:scale-110  active:scale-105 transition dark:bg-white/10'
-        target="_blank" href="/CV.pdf">Download CV{" "}<HiDownload  className='opacity-60 group-hover:translate-y-1 transition'/> </a>
+        download={"CV-SheikhUbaidUllah"} href="/CV.pdf">Download CV{" "}<HiDownload  className='opacity-60 group-hover:translate-y-1 transition'/> </a>
 
         <a 
         className=' bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full border border-black/15  focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition hover:text-gray-950 dark:bg-white/10 dark:text-white/60'
