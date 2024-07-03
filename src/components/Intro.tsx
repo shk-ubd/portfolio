@@ -11,9 +11,9 @@ import { useSectionInView } from '../../lib/hooks'
 import { useActiveSection } from '@/context/active-section-context'
 
 function Intro() {
-  const ref = useSectionInView( 'Home')
+  const ref = useSectionInView('Home')
   const { setActiveSection, setTimeOfLastClick } = useActiveSection()
-  
+
 
   return (
     <section ref={ref} id='home' className='mb-2 max-w-[50rem] text-center sm:mb-0 scroll-mt-96'>
@@ -76,7 +76,7 @@ function Intro() {
           delay: 0.1,
         }}
       >
-        
+
         <Link
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
@@ -90,25 +90,25 @@ function Intro() {
         </Link>
 
 
-        <a 
-        className='group bg-neutral-100 px-7 py-3 flex items-center gap-2 rounded-full border border-black/15 outline-none focus:scale-110 hover:scale-110  active:scale-105 transition dark:bg-white/10'
-        download={"CV-SheikhUbaidUllah"} href="/CV.pdf">Download CV{" "}<HiDownload  className='opacity-60 group-hover:translate-y-1 transition'/> </a>
-
-        <a 
-        className=' bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full border border-black/15  focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition hover:text-gray-950 dark:bg-white/10 dark:text-white/60'
-        href="https://www.linkedin.com/in/sheikh-ubaid/"
-        target='_blank'
-        >
-          <BsLinkedin/>
-        </a>
-        <a 
-        className='bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full border border-black/15 focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition hover:text-gray-950 dark:bg-white/10 dark:text-white/60'
-        href="https://github.com/shk-ubd"
-        target='_blank'
-        >
-          <FaGithubSquare/>
-        </a>
-
+        <a
+          className='group bg-neutral-100 px-7 py-3 flex items-center gap-2 rounded-full border border-black/15 outline-none focus:scale-110 hover:scale-110  active:scale-105 transition dark:bg-white/10'
+          download={"CV-SheikhUbaidUllah"} href="/CV.pdf">Download CV{" "}<HiDownload className='opacity-60 group-hover:translate-y-1 transition' /> </a>
+        <div className='flex gap-4 mb-10 mt-4  sm:m-0 sm:gap-2'>
+          <a
+            className=' bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full border border-black/15  focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition hover:text-gray-950 dark:bg-white/10 dark:text-white/60'
+            href="https://www.linkedin.com/in/sheikh-ubaid/"
+            target='_blank'
+          >
+            <BsLinkedin />
+          </a>
+          <a
+            className='bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full border border-black/15 focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition hover:text-gray-950 dark:bg-white/10 dark:text-white/60'
+            href="https://github.com/shk-ubd"
+            target='_blank'
+          >
+            <FaGithubSquare />
+          </a>
+        </div>
       </motion.div>
 
 
