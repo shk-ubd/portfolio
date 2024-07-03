@@ -35,20 +35,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Engineering Student",
-    location: "University of Karachi, Karachi",
-    description:
-    "Pursuing a degree in Software Engineering, covering subjects such as Calculus, Computer Logic Design, Object-Oriented Concepts, Data Structures, Software Development, and Artificial Intelligence. Gaining a strong foundation in both theoretical and practical aspects of software engineering.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022 - present",
-  },
-  {
     title: "Personal Projects",
     location: "Remote",
     description:
       "Developed several web development projects to enhance my skills in React, Next.js, and other modern web technologies. Projects include BlogApp, GadgetHub, Business Academy, and Space Tourism.",
     icon: React.createElement(FaReact),
     date: "2023 - present",
+  },
+  {
+    title: "Software Engineering Student",
+    location: "University of Karachi, Karachi",
+    description:
+    "Pursuing a degree in Software Engineering, covering subjects such as Calculus, Computer Logic Design, Object-Oriented Concepts, Data Structures, Software Development, and Artificial Intelligence. Gaining a strong foundation in both theoretical and practical aspects of software engineering.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022 - present",
   },
   // {
   //   title: "Open Source Contributor",
