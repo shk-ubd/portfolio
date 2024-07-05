@@ -16,7 +16,7 @@ function Intro() {
 
 
   return (
-    <section ref={ref} id='home' className='mb-2 max-w-[50rem] text-center sm:mb-0 scroll-mt-96'>
+    <section ref={ref} id='home' className='mb-2 max-w-[50rem] min-h-[70vh] text-center sm:mb-0 scroll-mt-96'>
       <div className='flex items-center justify-center'>
         <div className='relative'>
           <motion.div
@@ -91,18 +91,18 @@ function Intro() {
 
 
         <a
-          className='group bg-neutral-100 px-7 py-3 flex items-center gap-2 rounded-full border border-black/15 outline-none focus:scale-110 hover:scale-110  active:scale-105 transition dark:bg-white/10'
+          className='group bg-neutral-100 px-7 py-3 flex items-center gap-2 rounded-full border border-black/15 hover:border-black/20 outline-none focus:scale-110 hover:scale-110  active:scale-105 transition dark:bg-white/10'
           download={"CV-SheikhUbaidUllah"} href="/CV.pdf">Download CV{" "}<HiDownload className='opacity-60 group-hover:translate-y-1 transition' /> </a>
         <div className='flex gap-4 mb-10 mt-4  sm:m-0 sm:gap-2'>
           <a
-            className=' bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full border border-black/15  focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition hover:text-gray-950 dark:bg-white/10 dark:text-white/60'
+            className=' bg-white p-4 text-xl flex text-[#0077B5] items-center gap-2 rounded-full border border-black/15  focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition hover:text-[#2077B0] hover:border-black/20 dark:bg-white/10 '
             href="https://www.linkedin.com/in/sheikh-ubaid/"
             target='_blank'
           >
             <BsLinkedin />
           </a>
           <a
-            className='bg-white p-4 flex text-gray-700 items-center gap-2 rounded-full border border-black/15 focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition hover:text-gray-950 dark:bg-white/10 dark:text-white/60'
+            className='bg-white p-4 text-xl flex text-gray-950 items-center gap-2 rounded-full border border-black/15 focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition hover:text-gray-950 hover:border-black/20 dark:bg-white/10'
             href="https://github.com/shk-ubd"
             target='_blank'
           >

@@ -20,7 +20,7 @@ export default function ActiveSectionContextProvider({
   children: React.ReactNode;
 }) {
   
-  const [activeSection, setActiveSection] = useState<SectionNames>('About')
+  const [activeSection, setActiveSection] = useState<SectionNames>('Home')
   const [timeOfLastClick, setTimeOfLastClick] = useState(0)  
 
   return (
