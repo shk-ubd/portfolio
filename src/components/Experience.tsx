@@ -25,7 +25,7 @@ export default function Experience() {
             visible={true}
               contentStyle={{
                 background:
-                  theme === "light" ? "#f5f5f4" : "rgba(255, 255, 255, 0.05)",
+                  theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.05)",
                 boxShadow: "none",
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
