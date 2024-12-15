@@ -1,10 +1,10 @@
 import React from "react";
-import { FaGithub, FaReact } from "react-icons/fa";
+import { FaAngular, FaGithub, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import blogAppImg from "../public/blog-app.png";
 import gadgetHubImg from "../public/gadgethub.jpeg";
 import businessAcademyImg from "../public/business-academy.jpeg";
-import spaceTourismImg from "../public/space-tourism.png";
+import raahguzarImg from "../public/raahguzar.png";
 
 export const links = [
   {
@@ -35,12 +35,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Personal Projects",
-    location: "Remote",
+    title: "Frontend Developer Intern",
+    location: "MT Pixels",
     description:
-      "Developed several web development projects to enhance my skills in React, Next.js, and other modern web technologies. Projects include BlogApp, GadgetHub, Business Academy, and Space Tourism.",
-    icon: React.createElement(FaReact),
-    date: "2023 - present",
+      "I developed and implemented several interactive dashboards using AngularJS, enhancing data visualization and user experience.",
+    icon: React.createElement(FaAngular),
+    date: "2024 - present",
   },
   {
     title: "Software Engineering Student",
@@ -62,6 +62,15 @@ export const experiencesData = [
 
 
 export const projectsData = [
+  {
+    title: "Rahguzaar Admin App",
+    description: 
+      "An admin portal for the Rahguzaar app, a project by OGRA (Oil & Gas Regulatory Authority), a government agency. Developed while working at MT Pixels.",
+    tags: ["Admin Portal", "Government Project", "MT Pixels", "AngularJS"],
+    imageUrl: raahguzarImg,
+    link: "#"
+  }
+  ,
   {
     title: "BlogApp",
     description:
@@ -86,29 +95,20 @@ export const projectsData = [
     imageUrl: businessAcademyImg,
     link: "https://shk-ubd-business-academy.vercel.app/"
   },
-  {
-    title: "Space Tourism",
-    description:
-      "A frontend website for a space tourism company. Developed with React, Tailwind CSS, and Vite.",
-    tags: ["React", "Tailwind CSS", "Vite"],
-    imageUrl: spaceTourismImg,
-    link: "https://shk-ubd-space-tourism.netlify.app/"
-  },
 ] as const;
 
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
+  "Angular",
   "TypeScript",
   "React",
+  "JavaScript",
   "Next.js",
-  "Git",
-  "Tailwind",
   "Redux",
-  "Python",
+  "HTML",
+  "CSS",
+  "Tailwind",
+  "Git",
   "Appwrite",
-  "Firebase",
-  "Framer Motion",
+  "Python"
 ] as const;

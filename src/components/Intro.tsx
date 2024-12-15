@@ -58,15 +58,17 @@ function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
-        <span className="font-bold">Hello, I&apos;m Sheikh Ubaid Ullah.</span> I&apos;m a{" "}
-        <span className="font-bold">frontend developer</span> with a strong focus on{" "}
-        <span className="underline">React JS</span> and{" "}
-        <span className="font-bold">Next JS</span>. I build <span className="italic">dynamic, responsive web applications</span> with a user-centric approach.
-      </motion.h1>
+  className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+  initial={{ opacity: 0, y: 100 }}
+  animate={{ opacity: 1, y: 0 }}
+>
+  <span className="font-bold">Hello, I&apos;m Sheikh Ubaid Ullah.</span> I&apos;m a{" "}
+  <span className="font-bold">frontend developer</span> with a strong focus on{" "}
+  <span className="underline">React JS</span> and{" "}
+  <span className="font-bold">Angular</span>. I specialize in creating{" "}
+  <span className="italic">dynamic, responsive web applications</span> that deliver seamless user experiences.
+</motion.h1>
+            
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium"
