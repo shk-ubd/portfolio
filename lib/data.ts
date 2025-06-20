@@ -1,10 +1,12 @@
 import React from "react";
 import { FaAngular, FaGithub, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import blogAppImg from "../public/blog-app.png";
-import gadgetHubImg from "../public/gadgethub.jpeg";
-import businessAcademyImg from "../public/business-academy.jpeg";
+// import blogAppImg from "../public/blog-app.png";
+// import gadgetHubImg from "../public/gadgethub.jpeg";
+// import businessAcademyImg from "../public/business-academy.jpeg";
 import raahguzarImg from "../public/raahguzar.png";
+import engroHumsafarImg from "../public/engro-humsafar.png";
+import apnaPetImg from "../public/apnapet.png";
 
 export const links = [
   {
@@ -63,38 +65,54 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Engro Humsafar",
+    description: 
+      "Engro Fertilizers Dealer Management System for Dealers. An ongoing project, working at MT Pixels.",
+    tags: ["Admin Portal", "Engro", "MT Pixels", "AngularJS"],
+    imageUrl: engroHumsafarImg,
+    link: "#"
+  },
+  {
     title: "Rahguzaar Admin App",
     description: 
       "An admin portal for the Rahguzaar app, a project by OGRA (Oil & Gas Regulatory Authority), a government agency. Developed while working at MT Pixels.",
     tags: ["Admin Portal", "Government Project", "MT Pixels", "AngularJS"],
     imageUrl: raahguzarImg,
     link: "#"
-  }
-  ,
-  {
-    title: "BlogApp",
-    description:
-      "A Fullstack blogging app where users can signup, login, and post blog articles. Made with React, Tailwind CSS, and Appwrite.",
-    tags: ["React", "Tailwind CSS", "Appwrite", "React Hook Form", "TinyMCE"],
-    imageUrl: blogAppImg,
-    link: "https://shk-ubd-blogapp.netlify.app/"
   },
+ 
   {
-    title: "GadgetHub",
-    description:
-      "An ecommerce store using React, Sanity as a CMS, Tailwind CSS for styling, and Stripe for payments.",
-    tags: ["React", "Sanity", "Tailwind CSS", "Stripe"],
-    imageUrl: gadgetHubImg,
-    link: "https://github.com/shk-ubd/gadgethub"
+    title: "ApnaPet Dashboard App",
+    description: 
+      "Designed and developed a dashboard application for the Pet Planet website, a platform for buying and selling pets. Implemented advanced state management and data visualization using React and TypeScript.",
+    tags: ["Admin Portal", "Pet Planet", "MT Pixels", "React", "TypeScript"],
+    imageUrl: apnaPetImg,
+    link: "#"
   },
-  {
-    title: "Business Academy",
-    description:
-      "An app for a business academy providing course info. Built with NextJS and styled with TailwindCSS and Aceternity UI.",
-    tags: ["NextJS", "Tailwind CSS", "Aceternity UI"],
-    imageUrl: businessAcademyImg,
-    link: "https://shk-ubd-business-academy.vercel.app/"
-  },
+  // {
+  //   title: "BlogApp",
+  //   description:
+  //     "A Fullstack blogging app where users can signup, login, and post blog articles. Made with React, Tailwind CSS, and Appwrite.",
+  //   tags: ["React", "Tailwind CSS", "Appwrite", "React Hook Form", "TinyMCE"],
+  //   imageUrl: blogAppImg,
+  //   link: "https://shk-ubd-blogapp.netlify.app/"
+  // },
+  // {
+  //   title: "GadgetHub",
+  //   description:
+  //     "An ecommerce store using React, Sanity as a CMS, Tailwind CSS for styling, and Stripe for payments.",
+  //   tags: ["React", "Sanity", "Tailwind CSS", "Stripe"],
+  //   imageUrl: gadgetHubImg,
+  //   link: "https://github.com/shk-ubd/gadgethub"
+  // },
+  // {
+  //   title: "Business Academy",
+  //   description:
+  //     "An app for a business academy providing course info. Built with NextJS and styled with TailwindCSS and Aceternity UI.",
+  //   tags: ["NextJS", "Tailwind CSS", "Aceternity UI"],
+  //   imageUrl: businessAcademyImg,
+  //   link: "https://shk-ubd-business-academy.vercel.app/"
+  // },
 ] as const;
 
 
