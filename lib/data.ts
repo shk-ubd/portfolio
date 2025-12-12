@@ -50,7 +50,7 @@ export const experiencesData = [
     description:
     "Pursuing a degree in Software Engineering, covering subjects such as Calculus, Computer Logic Design, Object-Oriented Concepts, Data Structures, Software Development, and Artificial Intelligence. Gaining a strong foundation in both theoretical and practical aspects of software engineering.",
     icon: React.createElement(LuGraduationCap),
-    date: "2022 - present",
+    date: "2022 - 2025",
   },
   // {
   //   title: "Open Source Contributor",
